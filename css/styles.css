@@ -1,0 +1,48 @@
+body{
+    background-color: #6a85b6;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 99.1%;
+}
+
+.footer2 {
+    position: relative;
+    bottom: 0;
+    width: 99.1%;
+}
+
+#navBar {
+    justify-content: center; 
+    align-items: center;
+}
+
+.item1 {
+    grid-area: data1;
+}
+
+.item2 {
+    grid-area: data2;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'data1 data1 data2 data2';
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-container>div {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.labelFontSize {
+    font-size: 17px;
+}
+
+.table {
+    text-align: center;
+}
