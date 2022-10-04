@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion Elementos</title>
+    <link rel="stylesheet" href="../css/administrador.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <!-- barra de navegacion -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img src="../recursos/cecarlogo.png" id="imagenCompañia" alt="" style="width:75px; height: 75px;">
+        <div class="container-fluid">
+
+
+
+            <div style="justify-content: center; align-items: center;">
+                <h6 style="color: white; justify-content: center; "> ACME</h6>
+            </div>
+
+
+            <!-- boton de la barra de navegacion cuado la pestaña de la pagina web se minimiza -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <!-- barra de navegacion -->
+
+                <div class="navbar-nav ms-auto">
+
+                    <div style="justify-content: center; align-items: center;">
+
+                        <a class="nav-link" href="#">Cerrar sesion &emsp; <img src="../recursos/flechaatras.png" alt=""
+                                style="width: 50px; height: 50px ">
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="ftl-vertical-tab-content">
+        
+          <h2 class=" text-center" style="margin-top: 0;color:#253237">Gestion de elementos</h2> <br><br>
+          <div class="container my_text" style="text-align: left;">
+            <div class>
+              <div class>
+                <label style="font-size: 150%;" for="">Seleccione el elemento a registrar el precio</label><br>
+                <br>
+                  <select name="elemento" id="elemento">
+                    <option value="0">Materia Prima</option>
+                    <option value="1">Reactivos</option>
+                    <option value="2">Maquinas</option>
+                  </select>
+                  <br><br>
+                  <label for="">Nombre</label>
+                  <br>
+                <input type="text" aria-label="First name"><br><br>
+              </div>
+              <div  class = "col" style="width: auto;">
+                  <label for="">Precio</label>
+                  <br>
+                  <input type="text" aria-label="First name">
+                  <br>
+                  <br>
+                  <button class="btn btn-dark" style="font-size: 13px;" role="button">Registrar</button><br><br><br>
+              </div>  
+
+            </div>
+          <div class="container my_text">
+            <div class="row justify-content-center">
+              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                
+                <div class="mb-3" style="overflow-x:auto;">
+                  <table class="table table-striped table-ligth border border-5">
+                    <thead>
+                      <tr>
+                          <th>Nombre Materia Prima</th>
+                          <th>Precio</th>
+                      </tr>
+                    </thead>
+                      <tbody>
+                        <tr>
+                          <td>xxxx</td>
+                          <td>1</td>
+                        </tr>
+                      </tbody>
+                  </table>
+               </div>
+               <div class="mb-3" style="overflow-x:auto;">
+                <table class="table table-striped table-ligth border border-5">
+                  <thead>
+                    <tr>
+                        <th>Nombre Reactivo</th>
+                        <th>Precio</th>
+                    </tr>
+                  </thead>
+                    <tbody>
+                      <tr>
+                        <td>xxxx</td>
+                        <td>1</td>
+                      </tr>
+                    </tbody>
+                </table>
+             </div>
+             <div class="mb-3" style="overflow-x:auto;">
+              <table class="table table-striped table-ligth border border-5">
+                <thead>
+                  <tr>
+                      <th>Nombre Maquina</th>
+                      <th>Precio</th>
+                  </tr>
+                </thead>
+                  <tbody>
+                    <tr>
+                      <td>xxxx</td>
+                      <td>1</td>
+                    </tr>
+                  </tbody>
+              </table>
+           </div>
+              </div>
+            </div>
+          </div>
+        
+    </div>
+    
+</div>
+ <!-- footer -->
+ <div class="container-fluid divfooter">
+    <div class="row p-3 text-white bg-dark ">
+
+      <div class="col-xs-12 col-md-6 col-lg-3 ">
+        <p id="contactanos">Números de contacto : <a href="#">0180007694</a> <img id="img_cl" src="../recursos/cl2.png"
+            alt=""></p>
+      </div>
+
+
+
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p> Encuentranos en: <a href="#"> Kra 87-Calle 3N°12</a> <img id="img_cl" src="../recursos/locacion.jpg" alt="">
+        </p>
+      </div>
+
+
+    </div>
+  </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+</script>
+
+</html>

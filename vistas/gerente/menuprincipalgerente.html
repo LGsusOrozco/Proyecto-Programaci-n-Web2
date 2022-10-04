@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu principal Gerente</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+
+    </script>
+
+    <link rel="stylesheet" href="../../css/estilos.css">
+
+    <style>
+        .grid-container {
+          display: grid;
+          grid-template-columns: auto auto auto;
+          gap: 10px;
+          padding: 10px
+          
+        }
+        
+        .grid-container > div {
+          
+          font-size: 30px;
+          margin: 30px;
+        }
+
+        body{
+        background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+        }
+        </style>
+        </head>
+</head>
+<body>
+       <!-- barra de navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <img src="../../recursos/cecarlogo.png" id="imagenCompañia" alt="" style="width:75px; height: 75px;">
+      <div class="container-fluid">
+
+          <div style="justify-content: center; align-items: center;">
+              <h6 style="color: white; justify-content: center; "> ACME</h6>
+          </div>
+
+          <!-- boton de la barra de navegacion cuado la pestaña de la pagina web se minimiza -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <!-- barra de navegacion -->
+
+              <div class="navbar-nav ms-auto">
+
+                  <div style="justify-content: center; align-items: center;">
+
+                      <a class="nav-link" href="../secretaria_inicio/ingresas.html">Cerrar sesion &emsp; <img
+                              src="../../recursos/flechaatras.png" alt="" style="width: 50px; height: 50px ">
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </nav>
+
+      <div>
+             <div class="grid-container">
+                <div><h1>Bienvenido</h1></div>
+                <div></div>
+                <div><img src="../../recursos/imagenes/usuario.png" alt="" width="100px" height="100px"><br><p>Gerente</p></div>                         
+                <div> <img src="../../recursos/imagenes/folder.png" alt="" width="40px" height="40px"><a href="../../vistas/gerente/serviciosycategorias.html">Gestor de servicios</a></div>
+                <div></div>
+                <div></div>
+                <div> <img src="../../recursos/imagenes/list.png" alt="" width="40px" height="40px"><a href="../../vistas/gerente/reporteganancias.html">Gestor de importes</a></div>
+                <div></div>
+              </div>
+       </div>
+       <br><br><b><b><br><br><br><br></b></b>
+       <!-- footer -->
+  <div class="container-fluid">
+    <div class="row p-3 text-white bg-dark ">
+
+      <div class="col-xs-12 col-md-6 col-lg-3 ">
+        <p id="contactanos">Números de contacto : <a href="#">0180007694</a> <img id="img_cl" src="../../recursos/cl2.png"
+            alt=""></p>
+      </div>
+
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p> Encuentranos en: <a href="#"> Kra 87-Calle 3N°12</a> <img id="img_cl" src="../../recursos/locacion.jpg" alt="">
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

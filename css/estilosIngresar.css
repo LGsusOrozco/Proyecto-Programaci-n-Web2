@@ -1,0 +1,30 @@
+body{
+   
+    background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+}
+
+h1{
+    text-decoration-line: underline;
+ }
+ #imagenCompañia{
+    width: 100px;
+    height: 100px;
+  display: block;
+  margin: auto;
+ }
+
+ #imagenLogin{
+    width: 400px;
+    height: 400px;
+
+ }
+
+ .gradient-custom{
+    background: #e8eaeb ;
+ }
+
+ #img_cl{
+    width: 40px;
+   height: 40px;
+}
+
