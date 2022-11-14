@@ -1,6 +1,7 @@
 
 body{
    
+    min-height: 100vh;
     background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
 }
 
@@ -66,4 +67,4 @@ body{
     max-height: 100%;
    } */
 
-
+   
